@@ -1,0 +1,206 @@
+*{
+  color:white;
+}
+body{
+  background-color: rgb(41, 40, 40);
+}
+header{
+  width: 100%;
+  height: 40px;
+  float: left;
+  padding-top:15px ;
+  border-bottom:1px solid gray ;
+  background-color: black;
+  text-align:center;
+}
+nav{
+  width: 100%;
+  height: 40px;
+  float: left;
+  background-color: black;
+  border:none;
+  text-align: center;
+  padding-top:15px ;
+}
+section{
+  width: 60%;
+  height: auto;
+  float: left;
+  background-color: rgb(41, 40, 40);
+  text-align: center;
+}
+
+aside{
+  width:40%;
+  height: auto;
+  float: right;
+  background-color:rgb(22, 22, 22);
+}
+footer{
+  width: 100%;
+  height: 40px;
+  float: left;
+  background-color: black;
+  border: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+.video-cover{
+  width: 95%;
+  height: fit-content;
+  margin: 5px auto;
+  float: unset;
+}
+.perview-video-cover{
+  width: 98%;
+  height: fit-content;
+  margin: 0px auto;
+  float: left;
+  border-radius: 10px;
+}
+div.perview-video-cover .iframe
+{
+  float: left;
+  border-radius: 15px;
+}
+section iframe{
+  margin: 10px auto;
+ }
+
+ div.col5{
+  width: 45%;
+  height: fit-content;
+  float: left;
+}
+div.col7{
+  width: 55%;
+  height: fit-content;
+  float: right;
+} 
+h4.title{
+  margin: 10px 8px;
+}
+small.name{
+  display: block;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: lightgray;
+  margin-top: 10px;  
+}
+small.visited{
+  display: block;
+  margin-left: 8px;
+  font-size: 11px;
+  margin-top: 5px;  
+color: gray;
+}
+.row {
+  padding: 4px 2px;
+  margin: 0px 10px;
+  display: flex;
+}
+.row > * {
+  width: 100%;
+  max-width: 100%;
+}
+div.profil-image{
+  width: 8%;
+  height: 50px;
+  float: left;
+  display: flex;
+  border-radius: 50%;
+}
+div.name{
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 10px;
+width: 16%;
+float: left;
+height: auto;
+}
+div.video-title{
+  width: 100%;
+  height: auto;
+  display: flex;
+  float: left;
+  text-align: left;
+}
+div.video-title h3{
+  margin: 10px 0px;
+}
+button.btn-subscribe{
+  width: fit-content;
+  height: auto;
+  background-color: white;
+  color: black;
+  font-size: small;
+  float: left;
+  padding: 10px 7px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px auto;
+}
+button.btn-subscribe:hover{
+background-color: red;
+color: white;
+cursor: pointer;
+}
+button.btn-like{
+  width: fit-content;
+  height: auto;
+  background-color: gray;
+  color: white;
+  font-size: small;
+  float: left;
+  padding: 8px 20px;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  border-right: 1px solid white;
+  margin: 14px 0  14px 10px;
+}
+button.btn-dislike{
+  width: fit-content;
+  height: auto;
+  background-color: gray;
+  color: white;
+  font-size: small;
+  float: left;
+  padding: 8px 20px;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  margin: 14px 0;
+}
+button.btn-share{
+  width: fit-content;
+  height: auto;
+  background-color: gray;
+  color: white;
+  font-size: small;
+  float: left;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  margin: 14px 10px;
+}
+div.desc{
+  width: 100%;
+  height: fit-content;
+  /* display: flex; */
+  float: left;
+  padding: auto;
+  background-color: inherit;
+  color: white;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+button.btn-like:hover ,
+button.btn-share:hover ,
+button.btn-dislike:hover{
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
